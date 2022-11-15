@@ -1,0 +1,50 @@
+#container{
+    background-color: beige;
+    display: flex;
+}
+
+#container>div{
+    background-color: #ff0000;
+    padding: 20px;
+    font-size: 30px;
+}
+
+#container2{
+    background-color: beige;
+    display: flex;
+}
+
+#container2>div{
+    background-color: #431091;
+    padding: 20px;
+    margin-right: 55px;
+    font-size: 30px;
+    justify-content:space-between;
+    flex-direction: row;
+}
+
+#container3{
+    background-color: beige;
+    display: flex;
+}
+
+#container3>div{
+    justify-content:space-around;
+    background-color: cadetblue;
+    justify-content: flex-start;
+    padding:20px;
+    margin-left: 12px;
+}
+
+#container4{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    margin-left: 53px;
+}
+
+#container4>div{
+    background-color: #ff0000;
+    padding: 20px;
+    font-size: 30px;
+}
